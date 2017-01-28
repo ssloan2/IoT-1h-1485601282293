@@ -52,7 +52,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { 
-        random:require:('node-red-node-random')
+        random:require('node-red-node-random')
     },
 
     storageModule: require("./couchstorage")
